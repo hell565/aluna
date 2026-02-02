@@ -26,26 +26,7 @@ Track Swipe Actions - Swipe left/right for quick actions
 Animated Scanning State - Rotating music note during scan
 Localization
 Added "playback_speed" string in all languages (EN, RU, BE, TG)
-Project Structure
-src/main/
-├── java/com/kl/aluna/
-│   ├── MainActivity.kt          # Main entry point
-│   ├── data/                     # Data layer
-│   │   ├── AlunaSettings.kt     # App settings
-│   │   └── db/AppDatabase.kt    # Room database
-│   ├── player/                   # Music player components
-│   │   ├── MusicPlayer.kt
-│   │   ├── MusicService.kt
-│   │   ├── MusicRepository.kt
-│   │   └── MusicViewModel.kt
-│   ├── ui/                       # UI components
-│   │   ├── navigation/
-│   │   ├── screens/
-│   │   └── theme/
-│   └── voice/                    # Voice assistant
-│       └── VoiceAssistant.kt
-├── res/                          # Android resources
-└── AndroidManifest.xml
+
 Development Requirements
 This Android project requires:
 
